@@ -272,10 +272,6 @@ a:hover {
     margin-bottom: 0;
 }
 
-p > a {
-    white-space: nowrap;
-}
-
 .burg {
     display: none;
 }
@@ -674,4 +670,22 @@ form .input-wrapper .error + label:after {
     border: 1px solid #000;
     border-radius: 2px;
     text-transform: none;
+}
+
+.ac_footer {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #A12000;
+}
+
+.ac_footer a {
+    color: #A12000;
+}
+
+.ac_footer p {
+    text-align: center;
+}
+
+img[height="1"], img[width="1"] {
+    display: none !important;
 }
